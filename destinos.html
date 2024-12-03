@@ -1,0 +1,73 @@
+<main class="contenedor-de-tabala">
+    <h2 class="titulo-de-destinos">Tabala de destinos</h2>
+
+
+
+
+    <div class="tabal">
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Destino</th>
+                    <th>Precio</th>
+                    <th>Duración</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tabla-destinos">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="boton_de_correr_tabala">
+
+        <button type="button" id="correr_pagina_izquierda"> 🡸 </button>
+
+        <p id="mostrar_ubicacion_de_la_tabala"></p>
+
+        <button type="button" id="correr_pagina_derecha"> 🡺 </button>
+
+    </div>
+
+    <div class="formularios-de-tabala">
+        <form>
+
+            <label for="Destino">Destino</label>
+            <input type="text" name="destino" id="destino_a_agregar">
+
+            <label for="Precio">Precio </label>
+            <input type="number" name="precio" id="precio_a_agregar">
+
+            <label for="Duracion">Duracion </label>
+            <input type="time" name="" id="duracion_a_agregar">
+
+            <div class="botones-de-confirmar">
+
+                <button type="button" id="boton-de-agr-a-tabala"> Agregar </button>
+                <button type="button" id="boton-de-confirmar-edit"> Confirmar edicion </button>
+
+            </div>
+
+            <input type="number" name="" id="can_de_agregagr" placeholder="Cantidad de veces que quieres agregar">
+            <button type="button" id="agragar_muchas_veces">Agregar muchas</button>
+
+            <label for="Buscar">Buscar</label>
+            <input type="text" name="" id="buscar_en_tabal" placeholder="Buscar en la tabala">
+            <button type="button" id="buscar">Buscar</button>
+
+        </form>
+
+        <div>
+            <p id="respuesta_de_lo_buscado"></p>
+
+        </div>
+    </div>
+
+</main>
